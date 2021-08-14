@@ -1,0 +1,86 @@
+def global_input():
+    global equal
+    global calc
+    global cotx
+    global coty
+    global x 
+    global num1
+    global num2
+
+def show():
+    print("equal= ",equal)
+    print("calc= ",calc)
+    print("counterx= ",cotx)
+    print("countery= ",coty)
+    print("x= ",x)
+    print("num1= ",num1)
+    print("num2= ",num2)
+
+def zarb():
+    global_input()
+    cotx= cotx
+    coty= coty
+    x= x
+    num1= num1
+    num= num2
+    calc = 2
+    show()
+def division():
+    global_input()
+    equal = equal
+    cotx= cotx
+    coty= coty
+    x= x
+    num1= num1
+    num= num2
+    calc = 2
+    show()
+
+def add():
+    global_input()
+    equal = equal
+    cotx= cotx
+    coty= coty
+    x= x
+    num1= num1
+    num= num2
+    calc = 3
+    show()
+    
+
+def kasr():
+    global_input()
+    equal = equal
+    cotx= cotx
+    coty= coty
+    x= x
+    num1= num1
+    num= num2
+    calc = 4
+    show()
+
+def equal():
+    global_input()
+    calc = calc
+    cotx= cotx
+    coty= coty
+    x= x
+    num1= num1
+    num= num2
+    equal = 1
+    sum_= sum_
+    if calc == 0:
+        sum_ = num1
+    elif calc ==1:
+        sum_= num1 * num2
+    elif calc ==2:
+        sum_= num1 / num2
+    elif calc ==3:
+        sum_= num1 + num2
+    elif calc ==4:
+        sum_= num1 - num2
+    else:
+        sum_=0
+    
+    lbmShow.config(text=sum_)
+    show()
